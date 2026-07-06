@@ -1,4 +1,4 @@
-package simplemarshal
+package main
 
 import (
 	"fmt"
@@ -74,3 +74,5 @@ func main() {
 	u := User{Name:"Ваня", Age: 25, unExported: "secret", NoTag: "no tag"}
 	fmt.Println(MarshalStruct(u))
 }
+
+// вызываем go run main_marshal.go

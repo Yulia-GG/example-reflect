@@ -1,4 +1,4 @@
-package exp03
+package main
 
 import (
 	"fmt"

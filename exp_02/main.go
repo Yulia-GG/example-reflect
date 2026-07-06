@@ -1,4 +1,4 @@
-package exp02
+package main
 
 import (
 	"fmt"
